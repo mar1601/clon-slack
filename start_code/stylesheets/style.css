@@ -5,3 +5,11 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #FFFFFF;
+}

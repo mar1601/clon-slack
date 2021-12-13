@@ -1,1 +1,39 @@
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #FFFFFF;
+    height: 60 px;
 
+}
+
+.sticky ul{
+    padding: 20 px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+.image-header {
+    width: 140px;
+}
+
+@media (max-width: 770px){
+    .sticky ul{
+        display: none;  
+    }
+}
+
+.dropdown-icon {
+    margin-right: 34px;
+    margin-top: 25px;
+    font-size: 25px;
+    float: right;
+    color: grey;
+}
+
+
+@media (max-width: 769px){
+    header {
+        padding-top: 60px;
+    }
+}
